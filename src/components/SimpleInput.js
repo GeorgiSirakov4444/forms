@@ -27,7 +27,7 @@ const SimpleInput = () => {
   let formIsValid = false;
 
   if (enteredNameIsValid && enteredEmailIsValid) {
-    formIsValid = true;
+      formIsValid = true;
   }
 
   const formSubmissionHandler = (event) => {
